@@ -1,6 +1,7 @@
 import React, { useRef, useState } from 'react'
-import  './Quiz.css';
-import { data } from "./assets/data"
+import  './Quiz.css'
+import { data } from '../../assets/data';
+
 const Quiz = () => {
 
   let [index, setindex] = useState(0);
@@ -34,8 +35,6 @@ const Quiz = () => {
     }
    }
   }
-
-  
   
    const next = () => {
      if (lock===true) {
